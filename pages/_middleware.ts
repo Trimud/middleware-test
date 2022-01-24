@@ -16,7 +16,10 @@ export function middleware(req: NextRequest) {
   ) {
     // rewrite to the current hostname under the pages/sites folder
     // the main logic component will happen in pages/sites/[site]/index.tsx
-    const redirectUrl = new URL(`/_sites/test${pathname}`, req.url).toString();
+    const redirectUrl = new URL(
+      `/${locale}/_sites/test${pathname}`,
+      req.url
+    ).toString();
     return NextResponse.rewrite(redirectUrl);
   } else {
     return NextResponse.next();
