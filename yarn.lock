@@ -1236,11 +1236,6 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-translate@^1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/next-translate/-/next-translate-1.3.2.tgz#53b1cb1c62c35941ec0f4ec220f21a13954ac223"
-  integrity sha512-edj70Y1/s5pNfQEVHOIGsIXbXkaE/evM2aokFriX80p6s/JIau78wfuS0jXIPkNvPiDccX91CmU2tEk0gqu+Fg==
-
 next@12.0.8:
   version "12.0.8"
   resolved "https://registry.yarnpkg.com/next/-/next-12.0.8.tgz#29138f7cdd045e4bbba466af45bf430e769634b4"

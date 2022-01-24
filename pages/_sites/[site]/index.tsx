@@ -4,7 +4,6 @@ import type {
   NextPage,
 } from "next";
 import Head from "next/head";
-import useTranslation from "next-translate/useTranslation";
 import styles from "../../../styles/Home.module.css";
 
 export interface HomeInterface {
@@ -12,8 +11,6 @@ export interface HomeInterface {
 }
 
 const Home: NextPage<HomeInterface> = ({ site }) => {
-  const { t } = useTranslation("common");
-
   return (
     <div className={styles.container}>
       <Head>
@@ -23,9 +20,7 @@ const Home: NextPage<HomeInterface> = ({ site }) => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          {t("welcome")} {site}
-        </h1>
+        <h1 className={styles.title}>{site}</h1>
       </main>
     </div>
   );
